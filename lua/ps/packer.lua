@@ -97,7 +97,7 @@ packer.startup({function(use)
   use 'numToStr/Comment.nvim'
 
   -- show colors in code
-  use 'ap/vim-css-color'
+  use 'norcalli/nvim-colorizer.lua'
 
   -- auto complete brackets
   use 'jiangmiao/auto-pairs'
