@@ -96,6 +96,12 @@ packer.startup({function(use)
   -- comment
   use 'numToStr/Comment.nvim'
 
+  -- show colors in code
+  use 'ap/vim-css-color'
+
+  -- auto complete brackets
+  use 'jiangmiao/auto-pairs'
+
   -- git signs
   use 'lewis6991/gitsigns.nvim'
 

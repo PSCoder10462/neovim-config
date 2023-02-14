@@ -6,7 +6,7 @@ opt.nu = true
 opt.rnu = true
 opt.mouse = "a"
 opt.cursorline = false
-opt.clipboard = 'unnamed'
+opt.clipboard = 'unnamedplus'
 opt.signcolumn = "yes"
 
 opt.tabstop = 2
