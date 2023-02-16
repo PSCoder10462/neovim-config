@@ -8,3 +8,5 @@ lsp.nvim_workspace()
 
 lsp.setup()
 
+local opts = { noremap = true, silent = true }
+vim.api.nvim_set_keymap("n", "<leader>lf", ":lua vim.lsp.buf.formatting()<CR>", opts)

@@ -1,7 +1,7 @@
 -- examples for your init.lua
 
 -- disable netrw at the very start of your init.lua (strongly advised)
-vim.cmd[[hi NvimTreeNormal guibg=NONE ctermbg=NONE]]
+vim.cmd [[hi NvimTreeNormal guibg=NONE ctermbg=NONE]]
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 

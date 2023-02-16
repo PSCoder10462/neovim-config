@@ -27,5 +27,4 @@ vim.api.nvim_set_keymap("v", "K", ":m '<-2<CR>gv=gv", opts)
 vim.api.nvim_set_keymap("x", "<leader>p", "\"_dP", opts)
 
 -- change current word
-vim.api.nvim_set_keymap("n", "<leader>cw", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], opts)
-
+vim.api.nvim_set_keymap("n", "<leader>wr", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], opts)

@@ -27,4 +27,3 @@ opt.swapfile = false
 opt.updatetime = 50
 
 opt.scrolloff = 5
-
