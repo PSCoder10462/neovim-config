@@ -169,6 +169,11 @@ _G.packer_plugins = {
     path = "/home/parv/.local/share/nvim/site/pack/packer/start/neovim",
     url = "https://github.com/rose-pine/neovim"
   },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "/home/parv/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/parv/.local/share/nvim/site/pack/packer/start/nvim-cmp",

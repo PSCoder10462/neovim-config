@@ -51,6 +51,7 @@ packer.startup({
     }
     -- transparent bg
     use 'xiyaowong/nvim-transparent'
+
     -- lsp zero
     use {
       'VonHeikemen/lsp-zero.nvim',
@@ -74,6 +75,10 @@ packer.startup({
         { 'rafamadriz/friendly-snippets' }, -- Optional
       }
     }
+
+    -- null ls
+    use 'jose-elias-alvarez/null-ls.nvim'
+
     -- dashboard
     use 'glepnir/dashboard-nvim'
 
