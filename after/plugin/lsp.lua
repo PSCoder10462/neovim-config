@@ -6,6 +6,13 @@ lsp.preset('recommended')
 -- (Optional) Configure lua language server for neovim
 lsp.nvim_workspace()
 
+lsp.configure('clangd', {
+  cmd = {
+    "clangd",
+    "--header-insertion=never"
+  }
+})
+
 lsp.setup()
 
 local opts = { noremap = true, silent = true }
