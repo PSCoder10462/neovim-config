@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/home/ps/.local/share/nvim/site/pack/packer/start/auto-pairs",
     url = "https://github.com/jiangmiao/auto-pairs"
   },
+  ["ayu-vim"] = {
+    loaded = true,
+    path = "/home/ps/.local/share/nvim/site/pack/packer/start/ayu-vim",
+    url = "https://github.com/ayu-theme/ayu-vim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/home/ps/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
@@ -228,6 +233,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ps/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-aurora"] = {
+    loaded = true,
+    path = "/home/ps/.local/share/nvim/site/pack/packer/start/vim-aurora",
+    url = "https://github.com/rafalbromirski/vim-aurora"
   },
   ["vim-monokai"] = {
     loaded = true,

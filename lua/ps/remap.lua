@@ -24,7 +24,10 @@ vim.api.nvim_set_keymap("v", "J", ":m '>+1<CR>gv=gv", opts)
 vim.api.nvim_set_keymap("v", "K", ":m '<-2<CR>gv=gv", opts)
 
 -- visual mode paste without losing current clipboard
-vim.api.nvim_set_keymap("x", "<leader>p", "\"_dP", opts)
+vim.api.nvim_set_keymap("x", "<leader>p", '"_dP', opts)
 
 -- change current word
 vim.api.nvim_set_keymap("n", "<leader>wr", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], opts)
+
+-- run cp c++ code
+vim.api.nvim_set_keymap("n", "<C-E>", "<CR>:!g++ % --std=c++1z -Wall -O2 -o %:r.out && %:r.out<CR>", opts)
