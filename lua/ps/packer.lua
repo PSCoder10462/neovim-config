@@ -80,6 +80,9 @@ packer.startup({
 		-- null ls
 		use("jose-elias-alvarez/null-ls.nvim")
 
+		-- git fugitive
+		use("tpope/vim-fugitive")
+
 		-- dashboard
 		use("glepnir/dashboard-nvim")
 
